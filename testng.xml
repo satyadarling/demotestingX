@@ -1,0 +1,7 @@
+<suite name="EcommerceSuite">
+    <test name="E2ETest">
+        <classes>
+            <class name="tests.E2ETest" />
+        </classes>
+    </test>
+</suite>
