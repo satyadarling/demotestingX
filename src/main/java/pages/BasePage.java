@@ -20,10 +20,7 @@ public class BasePage {
     }
     
 
-    public void click(By locator) {
-    	wait.until(ExpectedConditions.presenceOfElementLocated(locator)).click();
-        
-    }
+    
     public void click1(By locator) {
     	wait.until(ExpectedConditions.presenceOfElementLocated(locator)).click();
         
