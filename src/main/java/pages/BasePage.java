@@ -25,6 +25,10 @@ public class BasePage {
     	wait.until(ExpectedConditions.presenceOfElementLocated(locator)).click();
         
     }
+    public void click2(By locator) {
+    	wait.until(ExpectedConditions.presenceOfElementLocated(locator)).click();
+        
+    }
 
 
     public void enterText(By locator, String value) {
