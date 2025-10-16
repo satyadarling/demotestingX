@@ -25,6 +25,7 @@ public class BasePage {
         
     }
 
+
     public void enterText(By locator, String value) {
     	wait.until(ExpectedConditions.presenceOfElementLocated(locator)).clear();
         
