@@ -24,6 +24,12 @@ public class BasePage {
     	wait.until(ExpectedConditions.presenceOfElementLocated(locator)).click();
         
     }
+    
+    public void click1(By locator) {
+    	wait.until(ExpectedConditions.presenceOfElementLocated(locator)).click();
+        
+    }
+
 
     public void enterText(By locator, String value) {
     	wait.until(ExpectedConditions.presenceOfElementLocated(locator)).clear();
